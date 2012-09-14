@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<groupList>
+<group>
+  <name>BNS</name>
+  <description></description>
+  <defaultCartType>audio</defaultCartType>
+  <defaultLowCart>100000</defaultLowCart>
+  <defaultHighCart>100100</defaultHighCart>
+  <cutShelfLife>-1</cutShelfLife>
+  <defaultTitle>Imported from %f.%e</defaultTitle>
+  <enforceCartRange>false</enforceCartRange>
+  <reportTfc>true</reportTfc>
+  <reportMus>true</reportMus>
+  <enableNowNext>false</enableNowNext>
+  <color>#000000</color>
+</group>
+<group>
+  <name>PAD</name>
+  <description></description>
+  <defaultCartType>audio</defaultCartType>
+  <defaultLowCart>70000</defaultLowCart>
+  <defaultHighCart>75000</defaultHighCart>
+  <cutShelfLife>-1</cutShelfLife>
+  <defaultTitle>Imported from %f.%e</defaultTitle>
+  <enforceCartRange>false</enforceCartRange>
+  <reportTfc>true</reportTfc>
+  <reportMus>true</reportMus>
+  <enableNowNext>false</enableNowNext>
+  <color>#000000</color>
+</group>
+</groupList>

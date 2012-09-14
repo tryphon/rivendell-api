@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<cartAdd>
+<cart>
+  <number>1005</number>
+  <type>audio</type>
+  <groupName>TEST</groupName>
+  <title>[new cart]</title>
+  <artist></artist>
+  <album></album>
+  <year></year>
+  <label></label>
+  <client></client>
+  <agency></agency>
+  <publisher></publisher>
+  <composer></composer>
+  <userDefined></userDefined>
+  <usageCode>0</usageCode>
+  <forcedLength>0:00:00.0</forcedLength>
+  <averageLength>0:00:00.0</averageLength>
+  <lengthDeviation>0:00:00.0</lengthDeviation>
+  <averageSegueLenth>0:00:00.0</averageSegueLenth>
+  <averageHookLength>0:00:00.0</averageHookLength>
+  <cutQuantity>0</cutQuantity>
+  <lastCutPlayed>0</lastCutPlayed>
+  <validity>2</validity>
+  <enforceLength>false</enforceLength>
+  <asyncronous>false</asyncronous>
+  <owner></owner>
+  <metadataDatetime></metadataDatetime>
+</cart>
+</cartAdd>
