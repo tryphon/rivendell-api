@@ -16,7 +16,7 @@ Gem::Specification.new do |gem|
   gem.version       = Rivendell::Api::VERSION
 
   gem.add_runtime_dependency 'httmultiparty'
-  gem.add_runtime_dependency 'active_support'
+  gem.add_runtime_dependency 'activesupport'
   gem.add_runtime_dependency 'null_logger'
 
   gem.add_development_dependency "simplecov"
