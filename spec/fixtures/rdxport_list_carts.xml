@@ -1,0 +1,1248 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<cartList>
+<cart>
+  <number>10037</number>
+  <type>audio</type>
+  <groupName>MUSIC</groupName>
+  <title>Antisocial</title>
+  <artist>Trust</artist>
+  <album>AntiBest of</album>
+  <year></year>
+  <label></label>
+  <client></client>
+  <agency></agency>
+  <publisher></publisher>
+  <composer></composer>
+  <userDefined></userDefined>
+  <usageCode>0</usageCode>
+  <forcedLength>0:05:05.8</forcedLength>
+  <averageLength>0:05:05.8</averageLength>
+  <lengthDeviation>0:00:00.0</lengthDeviation>
+  <averageSegueLenth>0:05:05.8</averageSegueLenth>
+  <averageHookLength>0:00:00.0</averageHookLength>
+  <cutQuantity>1</cutQuantity>
+  <lastCutPlayed>0</lastCutPlayed>
+  <validity>2</validity>
+  <enforceLength>false</enforceLength>
+  <asyncronous>false</asyncronous>
+  <owner></owner>
+  <metadataDatetime>Mon, 29 Aug 2011 15:15:56 GMT</metadataDatetime>
+<cutList>
+<cut>
+  <cutName>010037_001</cutName>
+  <cartNumber>10037</cartNumber>
+  <cutNumber>1</cutNumber>
+  <evergreen>false</evergreen>
+  <description>Antisocial</description>
+  <outcue></outcue>
+  <isrc></isrc>
+  <isci></isci>
+  <length>305842</length>
+  <originDatetime>Sat, 14 May 2011 09:51:00 GMT</originDatetime>
+  <startDatetime></startDatetime>
+  <endDatetime></endDatetime>
+  <sun>true</sun>
+  <mon>true</mon>
+  <tue>true</tue>
+  <wed>true</wed>
+  <thu>true</thu>
+  <fri>true</fri>
+  <sat>true</sat>
+  <startDaypart></startDaypart>
+  <endDaypart></endDaypart>
+  <originName>hyppo</originName>
+  <weight>1</weight>
+  <lastPlayDatetime>Mon, 29 Aug 2011 19:45:08 GMT</lastPlayDatetime>
+  <playCounter>1</playCounter>
+  <localCounter>1</localCounter>
+  <validity>2</validity>
+  <codingFormat>0</codingFormat>
+  <sampleRate>44100</sampleRate>
+  <bitRate>0</bitRate>
+  <channels>2</channels>
+  <playGain>0</playGain>
+  <startPoint>117</startPoint>
+  <endPoint>305959</endPoint>
+  <fadeupPoint>-1</fadeupPoint>
+  <fadedownPoint>-1</fadedownPoint>
+  <segueStartPoint>-1</segueStartPoint>
+  <segueEndPoint>-1</segueEndPoint>
+  <segueGain>-3000</segueGain>
+  <hookStartPoint>-1</hookStartPoint>
+  <hookEndPoint>-1</hookEndPoint>
+  <talkStartPoint>-1</talkStartPoint>
+  <talkEndPoint>0</talkEndPoint>
+</cut>
+</cutList>
+</cart>
+<cart>
+  <number>45001</number>
+  <type>audio</type>
+  <groupName>STINGS</groupName>
+  <title>Rivendell 1</title>
+  <artist></artist>
+  <album></album>
+  <year></year>
+  <label></label>
+  <client></client>
+  <agency></agency>
+  <publisher></publisher>
+  <composer></composer>
+  <userDefined></userDefined>
+  <usageCode>0</usageCode>
+  <forcedLength>0:00:07.8</forcedLength>
+  <averageLength>0:00:07.8</averageLength>
+  <lengthDeviation>0:00:00.0</lengthDeviation>
+  <averageSegueLenth>0:00:05.9</averageSegueLenth>
+  <averageHookLength>0:00:00.0</averageHookLength>
+  <cutQuantity>1</cutQuantity>
+  <lastCutPlayed>0</lastCutPlayed>
+  <validity>2</validity>
+  <enforceLength>false</enforceLength>
+  <asyncronous>false</asyncronous>
+  <owner></owner>
+  <metadataDatetime>Mon, 29 Aug 2011 15:15:56 GMT</metadataDatetime>
+<cutList>
+<cut>
+  <cutName>045001_001</cutName>
+  <cartNumber>45001</cartNumber>
+  <cutNumber>1</cutNumber>
+  <evergreen>false</evergreen>
+  <description>Rivendell 1</description>
+  <outcue></outcue>
+  <isrc></isrc>
+  <isci></isci>
+  <length>7862</length>
+  <originDatetime>Wed, 22 Apr 2009 21:23:22 GMT</originDatetime>
+  <startDatetime></startDatetime>
+  <endDatetime></endDatetime>
+  <sun>true</sun>
+  <mon>true</mon>
+  <tue>true</tue>
+  <wed>true</wed>
+  <thu>true</thu>
+  <fri>true</fri>
+  <sat>true</sat>
+  <startDaypart></startDaypart>
+  <endDaypart></endDaypart>
+  <originName>hyppo</originName>
+  <weight>1</weight>
+  <lastPlayDatetime>Thu, 13 Sep 2012 07:05:52 GMT</lastPlayDatetime>
+  <playCounter>126</playCounter>
+  <localCounter>101</localCounter>
+  <validity>2</validity>
+  <codingFormat>0</codingFormat>
+  <sampleRate>44100</sampleRate>
+  <bitRate>0</bitRate>
+  <channels>2</channels>
+  <playGain>0</playGain>
+  <startPoint>52</startPoint>
+  <endPoint>7914</endPoint>
+  <fadeupPoint>-1</fadeupPoint>
+  <fadedownPoint>-1</fadedownPoint>
+  <segueStartPoint>6008</segueStartPoint>
+  <segueEndPoint>7888</segueEndPoint>
+  <segueGain>-3000</segueGain>
+  <hookStartPoint>-1</hookStartPoint>
+  <hookEndPoint>-1</hookEndPoint>
+  <talkStartPoint>-1</talkStartPoint>
+  <talkEndPoint>0</talkEndPoint>
+</cut>
+</cutList>
+</cart>
+<cart>
+  <number>45002</number>
+  <type>audio</type>
+  <groupName>STINGS</groupName>
+  <title>Rivendell 2</title>
+  <artist></artist>
+  <album></album>
+  <year></year>
+  <label></label>
+  <client></client>
+  <agency></agency>
+  <publisher></publisher>
+  <composer></composer>
+  <userDefined></userDefined>
+  <usageCode>0</usageCode>
+  <forcedLength>0:00:09.1</forcedLength>
+  <averageLength>0:00:09.1</averageLength>
+  <lengthDeviation>0:00:00.0</lengthDeviation>
+  <averageSegueLenth>0:00:08.3</averageSegueLenth>
+  <averageHookLength>0:00:00.0</averageHookLength>
+  <cutQuantity>1</cutQuantity>
+  <lastCutPlayed>0</lastCutPlayed>
+  <validity>2</validity>
+  <enforceLength>false</enforceLength>
+  <asyncronous>false</asyncronous>
+  <owner></owner>
+  <metadataDatetime>Mon, 29 Aug 2011 15:15:56 GMT</metadataDatetime>
+<cutList>
+<cut>
+  <cutName>045002_001</cutName>
+  <cartNumber>45002</cartNumber>
+  <cutNumber>1</cutNumber>
+  <evergreen>false</evergreen>
+  <description>Rivendell 2</description>
+  <outcue></outcue>
+  <isrc></isrc>
+  <isci></isci>
+  <length>9116</length>
+  <originDatetime>Wed, 22 Apr 2009 21:25:00 GMT</originDatetime>
+  <startDatetime></startDatetime>
+  <endDatetime></endDatetime>
+  <sun>true</sun>
+  <mon>true</mon>
+  <tue>true</tue>
+  <wed>true</wed>
+  <thu>true</thu>
+  <fri>true</fri>
+  <sat>true</sat>
+  <startDaypart></startDaypart>
+  <endDaypart></endDaypart>
+  <originName>hyppo</originName>
+  <weight>1</weight>
+  <lastPlayDatetime>Thu, 13 Sep 2012 07:05:51 GMT</lastPlayDatetime>
+  <playCounter>33</playCounter>
+  <localCounter>25</localCounter>
+  <validity>2</validity>
+  <codingFormat>0</codingFormat>
+  <sampleRate>44100</sampleRate>
+  <bitRate>0</bitRate>
+  <channels>2</channels>
+  <playGain>0</playGain>
+  <startPoint>26</startPoint>
+  <endPoint>9142</endPoint>
+  <fadeupPoint>-1</fadeupPoint>
+  <fadedownPoint>-1</fadedownPoint>
+  <segueStartPoint>8333</segueStartPoint>
+  <segueEndPoint>9116</segueEndPoint>
+  <segueGain>-3000</segueGain>
+  <hookStartPoint>-1</hookStartPoint>
+  <hookEndPoint>-1</hookEndPoint>
+  <talkStartPoint>-1</talkStartPoint>
+  <talkEndPoint>0</talkEndPoint>
+</cut>
+</cutList>
+</cart>
+<cart>
+  <number>45003</number>
+  <type>audio</type>
+  <groupName>STINGS</groupName>
+  <title>Rivendell 3</title>
+  <artist></artist>
+  <album></album>
+  <year></year>
+  <label></label>
+  <client></client>
+  <agency></agency>
+  <publisher></publisher>
+  <composer></composer>
+  <userDefined></userDefined>
+  <usageCode>0</usageCode>
+  <forcedLength>0:00:08.3</forcedLength>
+  <averageLength>0:00:08.3</averageLength>
+  <lengthDeviation>0:00:00.0</lengthDeviation>
+  <averageSegueLenth>0:00:08.3</averageSegueLenth>
+  <averageHookLength>0:00:00.0</averageHookLength>
+  <cutQuantity>1</cutQuantity>
+  <lastCutPlayed>0</lastCutPlayed>
+  <validity>2</validity>
+  <enforceLength>false</enforceLength>
+  <asyncronous>false</asyncronous>
+  <owner></owner>
+  <metadataDatetime>Mon, 29 Aug 2011 15:15:56 GMT</metadataDatetime>
+<cutList>
+<cut>
+  <cutName>045003_001</cutName>
+  <cartNumber>45003</cartNumber>
+  <cutNumber>1</cutNumber>
+  <evergreen>false</evergreen>
+  <description>Rivendell 3</description>
+  <outcue></outcue>
+  <isrc></isrc>
+  <isci></isci>
+  <length>8385</length>
+  <originDatetime>Wed, 22 Apr 2009 21:25:38 GMT</originDatetime>
+  <startDatetime></startDatetime>
+  <endDatetime></endDatetime>
+  <sun>true</sun>
+  <mon>true</mon>
+  <tue>true</tue>
+  <wed>true</wed>
+  <thu>true</thu>
+  <fri>true</fri>
+  <sat>true</sat>
+  <startDaypart></startDaypart>
+  <endDaypart></endDaypart>
+  <originName>hyppo</originName>
+  <weight>1</weight>
+  <lastPlayDatetime>Thu, 13 Sep 2012 07:06:00 GMT</lastPlayDatetime>
+  <playCounter>29</playCounter>
+  <localCounter>19</localCounter>
+  <validity>2</validity>
+  <codingFormat>0</codingFormat>
+  <sampleRate>44100</sampleRate>
+  <bitRate>0</bitRate>
+  <channels>2</channels>
+  <playGain>0</playGain>
+  <startPoint>52</startPoint>
+  <endPoint>8437</endPoint>
+  <fadeupPoint>-1</fadeupPoint>
+  <fadedownPoint>-1</fadedownPoint>
+  <segueStartPoint>-1</segueStartPoint>
+  <segueEndPoint>-1</segueEndPoint>
+  <segueGain>-3000</segueGain>
+  <hookStartPoint>-1</hookStartPoint>
+  <hookEndPoint>-1</hookEndPoint>
+  <talkStartPoint>-1</talkStartPoint>
+  <talkEndPoint>0</talkEndPoint>
+</cut>
+</cutList>
+</cart>
+<cart>
+  <number>45004</number>
+  <type>audio</type>
+  <groupName>STINGS</groupName>
+  <title>Rivendell</title>
+  <artist></artist>
+  <album></album>
+  <year></year>
+  <label></label>
+  <client></client>
+  <agency></agency>
+  <publisher></publisher>
+  <composer></composer>
+  <userDefined></userDefined>
+  <usageCode>0</usageCode>
+  <forcedLength>0:00:08.4</forcedLength>
+  <averageLength>0:00:08.4</averageLength>
+  <lengthDeviation>0:00:00.6</lengthDeviation>
+  <averageSegueLenth>0:00:07.4</averageSegueLenth>
+  <averageHookLength>0:00:00.0</averageHookLength>
+  <cutQuantity>3</cutQuantity>
+  <lastCutPlayed>0</lastCutPlayed>
+  <validity>2</validity>
+  <enforceLength>false</enforceLength>
+  <asyncronous>false</asyncronous>
+  <owner></owner>
+  <metadataDatetime>Mon, 29 Aug 2011 15:15:56 GMT</metadataDatetime>
+<cutList>
+<cut>
+  <cutName>045004_001</cutName>
+  <cartNumber>45004</cartNumber>
+  <cutNumber>1</cutNumber>
+  <evergreen>false</evergreen>
+  <description>Rivendell 1</description>
+  <outcue></outcue>
+  <isrc></isrc>
+  <isci></isci>
+  <length>7862</length>
+  <originDatetime>Wed, 22 Apr 2009 21:23:22 GMT</originDatetime>
+  <startDatetime></startDatetime>
+  <endDatetime></endDatetime>
+  <sun>true</sun>
+  <mon>true</mon>
+  <tue>true</tue>
+  <wed>true</wed>
+  <thu>true</thu>
+  <fri>true</fri>
+  <sat>true</sat>
+  <startDaypart></startDaypart>
+  <endDaypart></endDaypart>
+  <originName>hyppo</originName>
+  <weight>1</weight>
+  <lastPlayDatetime>Thu, 13 Sep 2012 07:05:35 GMT</lastPlayDatetime>
+  <playCounter>34</playCounter>
+  <localCounter>22</localCounter>
+  <validity>2</validity>
+  <codingFormat>0</codingFormat>
+  <sampleRate>44100</sampleRate>
+  <bitRate>0</bitRate>
+  <channels>2</channels>
+  <playGain>0</playGain>
+  <startPoint>52</startPoint>
+  <endPoint>7914</endPoint>
+  <fadeupPoint>-1</fadeupPoint>
+  <fadedownPoint>-1</fadedownPoint>
+  <segueStartPoint>6008</segueStartPoint>
+  <segueEndPoint>7888</segueEndPoint>
+  <segueGain>-3000</segueGain>
+  <hookStartPoint>-1</hookStartPoint>
+  <hookEndPoint>-1</hookEndPoint>
+  <talkStartPoint>-1</talkStartPoint>
+  <talkEndPoint>0</talkEndPoint>
+</cut>
+<cut>
+  <cutName>045004_002</cutName>
+  <cartNumber>45004</cartNumber>
+  <cutNumber>2</cutNumber>
+  <evergreen>false</evergreen>
+  <description>Rivendell 2</description>
+  <outcue></outcue>
+  <isrc></isrc>
+  <isci></isci>
+  <length>9064</length>
+  <originDatetime>Wed, 22 Apr 2009 21:25:00 GMT</originDatetime>
+  <startDatetime></startDatetime>
+  <endDatetime></endDatetime>
+  <sun>true</sun>
+  <mon>true</mon>
+  <tue>true</tue>
+  <wed>true</wed>
+  <thu>true</thu>
+  <fri>true</fri>
+  <sat>true</sat>
+  <startDaypart></startDaypart>
+  <endDaypart></endDaypart>
+  <originName>hyppo</originName>
+  <weight>1</weight>
+  <lastPlayDatetime>Thu, 13 Sep 2012 07:05:48 GMT</lastPlayDatetime>
+  <playCounter>34</playCounter>
+  <localCounter>22</localCounter>
+  <validity>2</validity>
+  <codingFormat>0</codingFormat>
+  <sampleRate>44100</sampleRate>
+  <bitRate>0</bitRate>
+  <channels>2</channels>
+  <playGain>0</playGain>
+  <startPoint>78</startPoint>
+  <endPoint>9142</endPoint>
+  <fadeupPoint>-1</fadeupPoint>
+  <fadedownPoint>-1</fadedownPoint>
+  <segueStartPoint>8280</segueStartPoint>
+  <segueEndPoint>9116</segueEndPoint>
+  <segueGain>-3000</segueGain>
+  <hookStartPoint>-1</hookStartPoint>
+  <hookEndPoint>-1</hookEndPoint>
+  <talkStartPoint>-1</talkStartPoint>
+  <talkEndPoint>0</talkEndPoint>
+</cut>
+<cut>
+  <cutName>045004_003</cutName>
+  <cartNumber>45004</cartNumber>
+  <cutNumber>3</cutNumber>
+  <evergreen>false</evergreen>
+  <description>Rivendell 3</description>
+  <outcue></outcue>
+  <isrc></isrc>
+  <isci></isci>
+  <length>8307</length>
+  <originDatetime>Wed, 22 Apr 2009 21:25:38 GMT</originDatetime>
+  <startDatetime></startDatetime>
+  <endDatetime></endDatetime>
+  <sun>true</sun>
+  <mon>true</mon>
+  <tue>true</tue>
+  <wed>true</wed>
+  <thu>true</thu>
+  <fri>true</fri>
+  <sat>true</sat>
+  <startDaypart></startDaypart>
+  <endDaypart></endDaypart>
+  <originName>hyppo</originName>
+  <weight>1</weight>
+  <lastPlayDatetime>Thu, 13 Sep 2012 07:05:22 GMT</lastPlayDatetime>
+  <playCounter>33</playCounter>
+  <localCounter>21</localCounter>
+  <validity>2</validity>
+  <codingFormat>0</codingFormat>
+  <sampleRate>44100</sampleRate>
+  <bitRate>0</bitRate>
+  <channels>2</channels>
+  <playGain>0</playGain>
+  <startPoint>130</startPoint>
+  <endPoint>8437</endPoint>
+  <fadeupPoint>-1</fadeupPoint>
+  <fadedownPoint>-1</fadedownPoint>
+  <segueStartPoint>-1</segueStartPoint>
+  <segueEndPoint>-1</segueEndPoint>
+  <segueGain>-3000</segueGain>
+  <hookStartPoint>-1</hookStartPoint>
+  <hookEndPoint>-1</hookEndPoint>
+  <talkStartPoint>-1</talkStartPoint>
+  <talkEndPoint>0</talkEndPoint>
+</cut>
+</cutList>
+</cart>
+<cart>
+  <number>50001</number>
+  <type>macro</type>
+  <groupName>MACROS</groupName>
+  <title>TEST MACRO</title>
+  <artist></artist>
+  <album></album>
+  <year></year>
+  <label></label>
+  <client></client>
+  <agency></agency>
+  <publisher></publisher>
+  <composer></composer>
+  <userDefined></userDefined>
+  <usageCode>0</usageCode>
+  <forcedLength>0:00:00.0</forcedLength>
+  <averageLength>0:00:00.0</averageLength>
+  <lengthDeviation>0:00:00.0</lengthDeviation>
+  <averageSegueLenth>0:00:00.0</averageSegueLenth>
+  <averageHookLength>0:00:00.0</averageHookLength>
+  <cutQuantity>0</cutQuantity>
+  <lastCutPlayed>0</lastCutPlayed>
+  <validity>3</validity>
+  <enforceLength>false</enforceLength>
+  <asyncronous>false</asyncronous>
+  <owner></owner>
+  <metadataDatetime>Fri, 06 Jul 2012 13:46:47 GMT</metadataDatetime>
+  <macroList>
+  </macroList>
+</cart>
+<cart>
+  <number>70000</number>
+  <type>audio</type>
+  <groupName>PAD</groupName>
+  <title>Emission Test</title>
+  <artist></artist>
+  <album></album>
+  <year></year>
+  <label></label>
+  <client></client>
+  <agency></agency>
+  <publisher></publisher>
+  <composer></composer>
+  <userDefined></userDefined>
+  <usageCode>0</usageCode>
+  <forcedLength>0:15:31.5</forcedLength>
+  <averageLength>0:15:31.5</averageLength>
+  <lengthDeviation>0:13:31.6</lengthDeviation>
+  <averageSegueLenth>0:15:31.5</averageSegueLenth>
+  <averageHookLength>0:00:00.0</averageHookLength>
+  <cutQuantity>2</cutQuantity>
+  <lastCutPlayed>0</lastCutPlayed>
+  <validity>2</validity>
+  <enforceLength>false</enforceLength>
+  <asyncronous>false</asyncronous>
+  <owner></owner>
+  <metadataDatetime>Thu, 13 Sep 2012 10:08:35 GMT</metadataDatetime>
+<cutList>
+<cut>
+  <cutName>070000_003</cutName>
+  <cartNumber>70000</cartNumber>
+  <cutNumber>3</cutNumber>
+  <evergreen>false</evergreen>
+  <description>Imported from test.wav</description>
+  <outcue></outcue>
+  <isrc></isrc>
+  <isci></isci>
+  <length>1743190</length>
+  <originDatetime>Thu, 13 Sep 2012 10:08:16 GMT</originDatetime>
+  <startDatetime></startDatetime>
+  <endDatetime></endDatetime>
+  <sun>true</sun>
+  <mon>true</mon>
+  <tue>true</tue>
+  <wed>true</wed>
+  <thu>true</thu>
+  <fri>true</fri>
+  <sat>true</sat>
+  <startDaypart></startDaypart>
+  <endDaypart></endDaypart>
+  <originName>hyppo</originName>
+  <weight>1</weight>
+  <lastPlayDatetime></lastPlayDatetime>
+  <playCounter>0</playCounter>
+  <localCounter>0</localCounter>
+  <validity>2</validity>
+  <codingFormat>0</codingFormat>
+  <sampleRate>44100</sampleRate>
+  <bitRate>0</bitRate>
+  <channels>2</channels>
+  <playGain>0</playGain>
+  <startPoint>26</startPoint>
+  <endPoint>1743216</endPoint>
+  <fadeupPoint>-1</fadeupPoint>
+  <fadedownPoint>-1</fadedownPoint>
+  <segueStartPoint>-1</segueStartPoint>
+  <segueEndPoint>-1</segueEndPoint>
+  <segueGain>-3000</segueGain>
+  <hookStartPoint>-1</hookStartPoint>
+  <hookEndPoint>-1</hookEndPoint>
+  <talkStartPoint>-1</talkStartPoint>
+  <talkEndPoint>0</talkEndPoint>
+</cut>
+<cut>
+  <cutName>070000_002</cutName>
+  <cartNumber>70000</cartNumber>
+  <cutNumber>2</cutNumber>
+  <evergreen>false</evergreen>
+  <description>Imported from test.wav</description>
+  <outcue></outcue>
+  <isrc></isrc>
+  <isci></isci>
+  <length>119915</length>
+  <originDatetime>Sun, 26 Aug 2012 21:53:23 GMT</originDatetime>
+  <startDatetime></startDatetime>
+  <endDatetime></endDatetime>
+  <sun>true</sun>
+  <mon>true</mon>
+  <tue>true</tue>
+  <wed>true</wed>
+  <thu>true</thu>
+  <fri>true</fri>
+  <sat>true</sat>
+  <startDaypart></startDaypart>
+  <endDaypart></endDaypart>
+  <originName>hyppo</originName>
+  <weight>1</weight>
+  <lastPlayDatetime></lastPlayDatetime>
+  <playCounter>0</playCounter>
+  <localCounter>0</localCounter>
+  <validity>2</validity>
+  <codingFormat>0</codingFormat>
+  <sampleRate>44100</sampleRate>
+  <bitRate>0</bitRate>
+  <channels>2</channels>
+  <playGain>0</playGain>
+  <startPoint>26</startPoint>
+  <endPoint>119941</endPoint>
+  <fadeupPoint>-1</fadeupPoint>
+  <fadedownPoint>-1</fadedownPoint>
+  <segueStartPoint>-1</segueStartPoint>
+  <segueEndPoint>-1</segueEndPoint>
+  <segueGain>-3000</segueGain>
+  <hookStartPoint>-1</hookStartPoint>
+  <hookEndPoint>-1</hookEndPoint>
+  <talkStartPoint>-1</talkStartPoint>
+  <talkEndPoint>0</talkEndPoint>
+</cut>
+</cutList>
+</cart>
+<cart>
+  <number>70001</number>
+  <type>audio</type>
+  <groupName>PAD</groupName>
+  <title>Agenda - lundi</title>
+  <artist></artist>
+  <album></album>
+  <year></year>
+  <label></label>
+  <client></client>
+  <agency></agency>
+  <publisher></publisher>
+  <composer></composer>
+  <userDefined></userDefined>
+  <usageCode>0</usageCode>
+  <forcedLength>0:00:00.0</forcedLength>
+  <averageLength>0:00:00.0</averageLength>
+  <lengthDeviation>0:00:00.0</lengthDeviation>
+  <averageSegueLenth>0:00:00.0</averageSegueLenth>
+  <averageHookLength>0:00:00.0</averageHookLength>
+  <cutQuantity>0</cutQuantity>
+  <lastCutPlayed>0</lastCutPlayed>
+  <validity>2</validity>
+  <enforceLength>false</enforceLength>
+  <asyncronous>false</asyncronous>
+  <owner></owner>
+  <metadataDatetime></metadataDatetime>
+<cutList>
+</cutList>
+</cart>
+<cart>
+  <number>70002</number>
+  <type>audio</type>
+  <groupName>PAD</groupName>
+  <title>Agenda - mardi</title>
+  <artist></artist>
+  <album></album>
+  <year></year>
+  <label></label>
+  <client></client>
+  <agency></agency>
+  <publisher></publisher>
+  <composer></composer>
+  <userDefined></userDefined>
+  <usageCode>0</usageCode>
+  <forcedLength>0:00:00.0</forcedLength>
+  <averageLength>0:00:00.0</averageLength>
+  <lengthDeviation>0:00:00.0</lengthDeviation>
+  <averageSegueLenth>0:00:00.0</averageSegueLenth>
+  <averageHookLength>0:00:00.0</averageHookLength>
+  <cutQuantity>0</cutQuantity>
+  <lastCutPlayed>0</lastCutPlayed>
+  <validity>2</validity>
+  <enforceLength>false</enforceLength>
+  <asyncronous>false</asyncronous>
+  <owner></owner>
+  <metadataDatetime></metadataDatetime>
+<cutList>
+</cutList>
+</cart>
+<cart>
+  <number>70003</number>
+  <type>audio</type>
+  <groupName>PAD</groupName>
+  <title>Agenda - mercredi</title>
+  <artist></artist>
+  <album></album>
+  <year></year>
+  <label></label>
+  <client></client>
+  <agency></agency>
+  <publisher></publisher>
+  <composer></composer>
+  <userDefined></userDefined>
+  <usageCode>0</usageCode>
+  <forcedLength>0:00:00.0</forcedLength>
+  <averageLength>0:00:00.0</averageLength>
+  <lengthDeviation>0:00:00.0</lengthDeviation>
+  <averageSegueLenth>0:00:00.0</averageSegueLenth>
+  <averageHookLength>0:00:00.0</averageHookLength>
+  <cutQuantity>0</cutQuantity>
+  <lastCutPlayed>0</lastCutPlayed>
+  <validity>2</validity>
+  <enforceLength>false</enforceLength>
+  <asyncronous>false</asyncronous>
+  <owner></owner>
+  <metadataDatetime></metadataDatetime>
+<cutList>
+</cutList>
+</cart>
+<cart>
+  <number>70004</number>
+  <type>audio</type>
+  <groupName>PAD</groupName>
+  <title>Agenda - jeudi</title>
+  <artist></artist>
+  <album></album>
+  <year></year>
+  <label></label>
+  <client></client>
+  <agency></agency>
+  <publisher></publisher>
+  <composer></composer>
+  <userDefined></userDefined>
+  <usageCode>0</usageCode>
+  <forcedLength>0:00:00.0</forcedLength>
+  <averageLength>0:00:00.0</averageLength>
+  <lengthDeviation>0:00:00.0</lengthDeviation>
+  <averageSegueLenth>0:00:00.0</averageSegueLenth>
+  <averageHookLength>0:00:00.0</averageHookLength>
+  <cutQuantity>0</cutQuantity>
+  <lastCutPlayed>0</lastCutPlayed>
+  <validity>2</validity>
+  <enforceLength>false</enforceLength>
+  <asyncronous>false</asyncronous>
+  <owner></owner>
+  <metadataDatetime></metadataDatetime>
+<cutList>
+</cutList>
+</cart>
+<cart>
+  <number>70005</number>
+  <type>audio</type>
+  <groupName>PAD</groupName>
+  <title>Agenda - vendredi</title>
+  <artist></artist>
+  <album></album>
+  <year></year>
+  <label></label>
+  <client></client>
+  <agency></agency>
+  <publisher></publisher>
+  <composer></composer>
+  <userDefined></userDefined>
+  <usageCode>0</usageCode>
+  <forcedLength>0:00:00.0</forcedLength>
+  <averageLength>0:00:00.0</averageLength>
+  <lengthDeviation>0:00:00.0</lengthDeviation>
+  <averageSegueLenth>0:00:00.0</averageSegueLenth>
+  <averageHookLength>0:00:00.0</averageHookLength>
+  <cutQuantity>0</cutQuantity>
+  <lastCutPlayed>0</lastCutPlayed>
+  <validity>2</validity>
+  <enforceLength>false</enforceLength>
+  <asyncronous>false</asyncronous>
+  <owner></owner>
+  <metadataDatetime></metadataDatetime>
+<cutList>
+</cutList>
+</cart>
+<cart>
+  <number>70006</number>
+  <type>audio</type>
+  <groupName>PAD</groupName>
+  <title>Lundi 20h</title>
+  <artist></artist>
+  <album></album>
+  <year></year>
+  <label></label>
+  <client></client>
+  <agency></agency>
+  <publisher></publisher>
+  <composer></composer>
+  <userDefined></userDefined>
+  <usageCode>0</usageCode>
+  <forcedLength>0:00:00.0</forcedLength>
+  <averageLength>0:00:00.0</averageLength>
+  <lengthDeviation>0:00:00.0</lengthDeviation>
+  <averageSegueLenth>0:00:00.0</averageSegueLenth>
+  <averageHookLength>0:00:00.0</averageHookLength>
+  <cutQuantity>0</cutQuantity>
+  <lastCutPlayed>0</lastCutPlayed>
+  <validity>2</validity>
+  <enforceLength>false</enforceLength>
+  <asyncronous>false</asyncronous>
+  <owner></owner>
+  <metadataDatetime></metadataDatetime>
+<cutList>
+</cutList>
+</cart>
+<cart>
+  <number>70007</number>
+  <type>audio</type>
+  <groupName>PAD</groupName>
+  <title>Mardi 20h</title>
+  <artist></artist>
+  <album></album>
+  <year></year>
+  <label></label>
+  <client></client>
+  <agency></agency>
+  <publisher></publisher>
+  <composer></composer>
+  <userDefined></userDefined>
+  <usageCode>0</usageCode>
+  <forcedLength>0:00:00.0</forcedLength>
+  <averageLength>0:00:00.0</averageLength>
+  <lengthDeviation>0:00:00.0</lengthDeviation>
+  <averageSegueLenth>0:00:00.0</averageSegueLenth>
+  <averageHookLength>0:00:00.0</averageHookLength>
+  <cutQuantity>0</cutQuantity>
+  <lastCutPlayed>0</lastCutPlayed>
+  <validity>2</validity>
+  <enforceLength>false</enforceLength>
+  <asyncronous>false</asyncronous>
+  <owner></owner>
+  <metadataDatetime></metadataDatetime>
+<cutList>
+</cutList>
+</cart>
+<cart>
+  <number>70008</number>
+  <type>audio</type>
+  <groupName>PAD</groupName>
+  <title>Mercredi 20h</title>
+  <artist></artist>
+  <album></album>
+  <year></year>
+  <label></label>
+  <client></client>
+  <agency></agency>
+  <publisher></publisher>
+  <composer></composer>
+  <userDefined></userDefined>
+  <usageCode>0</usageCode>
+  <forcedLength>0:00:00.0</forcedLength>
+  <averageLength>0:00:00.0</averageLength>
+  <lengthDeviation>0:00:00.0</lengthDeviation>
+  <averageSegueLenth>0:00:00.0</averageSegueLenth>
+  <averageHookLength>0:00:00.0</averageHookLength>
+  <cutQuantity>0</cutQuantity>
+  <lastCutPlayed>0</lastCutPlayed>
+  <validity>2</validity>
+  <enforceLength>false</enforceLength>
+  <asyncronous>false</asyncronous>
+  <owner></owner>
+  <metadataDatetime></metadataDatetime>
+<cutList>
+</cutList>
+</cart>
+<cart>
+  <number>70009</number>
+  <type>audio</type>
+  <groupName>PAD</groupName>
+  <title>Jeudi 20h</title>
+  <artist></artist>
+  <album></album>
+  <year></year>
+  <label></label>
+  <client></client>
+  <agency></agency>
+  <publisher></publisher>
+  <composer></composer>
+  <userDefined></userDefined>
+  <usageCode>0</usageCode>
+  <forcedLength>0:00:00.0</forcedLength>
+  <averageLength>0:00:00.0</averageLength>
+  <lengthDeviation>0:00:00.0</lengthDeviation>
+  <averageSegueLenth>0:00:00.0</averageSegueLenth>
+  <averageHookLength>0:00:00.0</averageHookLength>
+  <cutQuantity>0</cutQuantity>
+  <lastCutPlayed>0</lastCutPlayed>
+  <validity>2</validity>
+  <enforceLength>false</enforceLength>
+  <asyncronous>false</asyncronous>
+  <owner></owner>
+  <metadataDatetime></metadataDatetime>
+<cutList>
+</cutList>
+</cart>
+<cart>
+  <number>70010</number>
+  <type>audio</type>
+  <groupName>PAD</groupName>
+  <title>Vendredi 20h</title>
+  <artist></artist>
+  <album></album>
+  <year></year>
+  <label></label>
+  <client></client>
+  <agency></agency>
+  <publisher></publisher>
+  <composer></composer>
+  <userDefined></userDefined>
+  <usageCode>0</usageCode>
+  <forcedLength>0:00:00.0</forcedLength>
+  <averageLength>0:00:00.0</averageLength>
+  <lengthDeviation>0:00:00.0</lengthDeviation>
+  <averageSegueLenth>0:00:00.0</averageSegueLenth>
+  <averageHookLength>0:00:00.0</averageHookLength>
+  <cutQuantity>0</cutQuantity>
+  <lastCutPlayed>0</lastCutPlayed>
+  <validity>2</validity>
+  <enforceLength>false</enforceLength>
+  <asyncronous>false</asyncronous>
+  <owner></owner>
+  <metadataDatetime></metadataDatetime>
+<cutList>
+</cutList>
+</cart>
+<cart>
+  <number>70011</number>
+  <type>audio</type>
+  <groupName>PAD</groupName>
+  <title>Samedi 20h</title>
+  <artist></artist>
+  <album></album>
+  <year></year>
+  <label></label>
+  <client></client>
+  <agency></agency>
+  <publisher></publisher>
+  <composer></composer>
+  <userDefined></userDefined>
+  <usageCode>0</usageCode>
+  <forcedLength>0:00:00.0</forcedLength>
+  <averageLength>0:00:00.0</averageLength>
+  <lengthDeviation>0:00:00.0</lengthDeviation>
+  <averageSegueLenth>0:00:00.0</averageSegueLenth>
+  <averageHookLength>0:00:00.0</averageHookLength>
+  <cutQuantity>0</cutQuantity>
+  <lastCutPlayed>0</lastCutPlayed>
+  <validity>2</validity>
+  <enforceLength>false</enforceLength>
+  <asyncronous>false</asyncronous>
+  <owner></owner>
+  <metadataDatetime></metadataDatetime>
+<cutList>
+</cutList>
+</cart>
+<cart>
+  <number>70012</number>
+  <type>audio</type>
+  <groupName>PAD</groupName>
+  <title>Dimanche 20h</title>
+  <artist></artist>
+  <album></album>
+  <year></year>
+  <label></label>
+  <client></client>
+  <agency></agency>
+  <publisher></publisher>
+  <composer></composer>
+  <userDefined></userDefined>
+  <usageCode>0</usageCode>
+  <forcedLength>0:00:00.0</forcedLength>
+  <averageLength>0:00:00.0</averageLength>
+  <lengthDeviation>0:00:00.0</lengthDeviation>
+  <averageSegueLenth>0:00:00.0</averageSegueLenth>
+  <averageHookLength>0:00:00.0</averageHookLength>
+  <cutQuantity>0</cutQuantity>
+  <lastCutPlayed>0</lastCutPlayed>
+  <validity>2</validity>
+  <enforceLength>false</enforceLength>
+  <asyncronous>false</asyncronous>
+  <owner></owner>
+  <metadataDatetime></metadataDatetime>
+<cutList>
+</cutList>
+</cart>
+<cart>
+  <number>70013</number>
+  <type>audio</type>
+  <groupName>PAD</groupName>
+  <title>Example 1</title>
+  <artist></artist>
+  <album></album>
+  <year></year>
+  <label></label>
+  <client></client>
+  <agency></agency>
+  <publisher></publisher>
+  <composer></composer>
+  <userDefined></userDefined>
+  <usageCode>0</usageCode>
+  <forcedLength>0:00:00.0</forcedLength>
+  <averageLength>0:00:00.0</averageLength>
+  <lengthDeviation>0:00:00.0</lengthDeviation>
+  <averageSegueLenth>0:00:00.0</averageSegueLenth>
+  <averageHookLength>0:00:00.0</averageHookLength>
+  <cutQuantity>0</cutQuantity>
+  <lastCutPlayed>0</lastCutPlayed>
+  <validity>2</validity>
+  <enforceLength>false</enforceLength>
+  <asyncronous>false</asyncronous>
+  <owner></owner>
+  <metadataDatetime></metadataDatetime>
+<cutList>
+</cutList>
+</cart>
+<cart>
+  <number>70014</number>
+  <type>audio</type>
+  <groupName>PAD</groupName>
+  <title>Example 2</title>
+  <artist></artist>
+  <album></album>
+  <year></year>
+  <label></label>
+  <client></client>
+  <agency></agency>
+  <publisher></publisher>
+  <composer></composer>
+  <userDefined></userDefined>
+  <usageCode>0</usageCode>
+  <forcedLength>0:00:00.0</forcedLength>
+  <averageLength>0:00:00.0</averageLength>
+  <lengthDeviation>0:00:00.0</lengthDeviation>
+  <averageSegueLenth>0:00:00.0</averageSegueLenth>
+  <averageHookLength>0:00:00.0</averageHookLength>
+  <cutQuantity>0</cutQuantity>
+  <lastCutPlayed>0</lastCutPlayed>
+  <validity>2</validity>
+  <enforceLength>false</enforceLength>
+  <asyncronous>false</asyncronous>
+  <owner></owner>
+  <metadataDatetime></metadataDatetime>
+<cutList>
+</cutList>
+</cart>
+<cart>
+  <number>70015</number>
+  <type>audio</type>
+  <groupName>PAD</groupName>
+  <title>Example 3</title>
+  <artist></artist>
+  <album></album>
+  <year></year>
+  <label></label>
+  <client></client>
+  <agency></agency>
+  <publisher></publisher>
+  <composer></composer>
+  <userDefined></userDefined>
+  <usageCode>0</usageCode>
+  <forcedLength>0:00:00.0</forcedLength>
+  <averageLength>0:00:00.0</averageLength>
+  <lengthDeviation>0:00:00.0</lengthDeviation>
+  <averageSegueLenth>0:00:00.0</averageSegueLenth>
+  <averageHookLength>0:00:00.0</averageHookLength>
+  <cutQuantity>0</cutQuantity>
+  <lastCutPlayed>0</lastCutPlayed>
+  <validity>2</validity>
+  <enforceLength>false</enforceLength>
+  <asyncronous>false</asyncronous>
+  <owner></owner>
+  <metadataDatetime></metadataDatetime>
+<cutList>
+</cutList>
+</cart>
+<cart>
+  <number>70016</number>
+  <type>audio</type>
+  <groupName>PAD</groupName>
+  <title>Yet Another Example 1</title>
+  <artist></artist>
+  <album></album>
+  <year></year>
+  <label></label>
+  <client></client>
+  <agency></agency>
+  <publisher></publisher>
+  <composer></composer>
+  <userDefined></userDefined>
+  <usageCode>0</usageCode>
+  <forcedLength>0:00:00.0</forcedLength>
+  <averageLength>0:00:00.0</averageLength>
+  <lengthDeviation>0:00:00.0</lengthDeviation>
+  <averageSegueLenth>0:00:00.0</averageSegueLenth>
+  <averageHookLength>0:00:00.0</averageHookLength>
+  <cutQuantity>0</cutQuantity>
+  <lastCutPlayed>0</lastCutPlayed>
+  <validity>2</validity>
+  <enforceLength>false</enforceLength>
+  <asyncronous>false</asyncronous>
+  <owner></owner>
+  <metadataDatetime></metadataDatetime>
+<cutList>
+</cutList>
+</cart>
+<cart>
+  <number>100000</number>
+  <type>audio</type>
+  <groupName>BNS</groupName>
+  <title>Programme Musical 1h30</title>
+  <artist></artist>
+  <album></album>
+  <year></year>
+  <label></label>
+  <client></client>
+  <agency></agency>
+  <publisher></publisher>
+  <composer></composer>
+  <userDefined></userDefined>
+  <usageCode>0</usageCode>
+  <forcedLength>1:29:59.8</forcedLength>
+  <averageLength>1:29:59.8</averageLength>
+  <lengthDeviation>0:00:00.0</lengthDeviation>
+  <averageSegueLenth>1:29:59.8</averageSegueLenth>
+  <averageHookLength>0:00:00.0</averageHookLength>
+  <cutQuantity>1</cutQuantity>
+  <lastCutPlayed>0</lastCutPlayed>
+  <validity>2</validity>
+  <enforceLength>false</enforceLength>
+  <asyncronous>false</asyncronous>
+  <owner></owner>
+  <metadataDatetime>Mon, 29 Aug 2011 15:15:56 GMT</metadataDatetime>
+<cutList>
+<cut>
+  <cutName>100000_001</cutName>
+  <cartNumber>100000</cartNumber>
+  <cutNumber>1</cutNumber>
+  <evergreen>false</evergreen>
+  <description>Imported from bns-1hour30.wav</description>
+  <outcue></outcue>
+  <isrc></isrc>
+  <isci></isci>
+  <length>5399836</length>
+  <originDatetime>Tue, 02 Feb 2010 17:54:57 GMT</originDatetime>
+  <startDatetime></startDatetime>
+  <endDatetime></endDatetime>
+  <sun>true</sun>
+  <mon>true</mon>
+  <tue>true</tue>
+  <wed>true</wed>
+  <thu>true</thu>
+  <fri>true</fri>
+  <sat>true</sat>
+  <startDaypart></startDaypart>
+  <endDaypart></endDaypart>
+  <originName>hyppo</originName>
+  <weight>1</weight>
+  <lastPlayDatetime>Sat, 01 Sep 2012 17:40:39 GMT</lastPlayDatetime>
+  <playCounter>5</playCounter>
+  <localCounter>5</localCounter>
+  <validity>2</validity>
+  <codingFormat>0</codingFormat>
+  <sampleRate>44100</sampleRate>
+  <bitRate>0</bitRate>
+  <channels>2</channels>
+  <playGain>0</playGain>
+  <startPoint>26</startPoint>
+  <endPoint>5399862</endPoint>
+  <fadeupPoint>-1</fadeupPoint>
+  <fadedownPoint>-1</fadedownPoint>
+  <segueStartPoint>-1</segueStartPoint>
+  <segueEndPoint>-1</segueEndPoint>
+  <segueGain>-3000</segueGain>
+  <hookStartPoint>-1</hookStartPoint>
+  <hookEndPoint>-1</hookEndPoint>
+  <talkStartPoint>-1</talkStartPoint>
+  <talkEndPoint>0</talkEndPoint>
+</cut>
+</cutList>
+</cart>
+<cart>
+  <number>999999</number>
+  <type>audio</type>
+  <groupName>TEST</groupName>
+  <title>Test Tone</title>
+  <artist>Salem Radio Labs</artist>
+  <album></album>
+  <year></year>
+  <label></label>
+  <client></client>
+  <agency></agency>
+  <publisher></publisher>
+  <composer></composer>
+  <userDefined></userDefined>
+  <usageCode>0</usageCode>
+  <forcedLength>0:00:10.0</forcedLength>
+  <averageLength>0:00:10.0</averageLength>
+  <lengthDeviation>0:00:00.0</lengthDeviation>
+  <averageSegueLenth>0:00:10.0</averageSegueLenth>
+  <averageHookLength>0:00:00.0</averageHookLength>
+  <cutQuantity>1</cutQuantity>
+  <lastCutPlayed>0</lastCutPlayed>
+  <validity>2</validity>
+  <enforceLength>false</enforceLength>
+  <asyncronous>false</asyncronous>
+  <owner></owner>
+  <metadataDatetime>Mon, 29 Aug 2011 15:15:56 GMT</metadataDatetime>
+<cutList>
+<cut>
+  <cutName>999999_000</cutName>
+  <cartNumber>999999</cartNumber>
+  <cutNumber>0</cutNumber>
+  <evergreen>false</evergreen>
+  <description>1 kHz at Reference Level [-16 dBFS]</description>
+  <outcue>[tone]</outcue>
+  <isrc></isrc>
+  <isci></isci>
+  <length>10000</length>
+  <originDatetime>Mon, 20 Apr 2009 20:07:41 GMT</originDatetime>
+  <startDatetime></startDatetime>
+  <endDatetime></endDatetime>
+  <sun>true</sun>
+  <mon>true</mon>
+  <tue>true</tue>
+  <wed>true</wed>
+  <thu>true</thu>
+  <fri>true</fri>
+  <sat>true</sat>
+  <startDaypart></startDaypart>
+  <endDaypart></endDaypart>
+  <originName>RDGen</originName>
+  <weight>1</weight>
+  <lastPlayDatetime></lastPlayDatetime>
+  <playCounter>0</playCounter>
+  <localCounter>0</localCounter>
+  <validity>2</validity>
+  <codingFormat>0</codingFormat>
+  <sampleRate>44100</sampleRate>
+  <bitRate>0</bitRate>
+  <channels>2</channels>
+  <playGain>0</playGain>
+  <startPoint>0</startPoint>
+  <endPoint>10000</endPoint>
+  <fadeupPoint>-1</fadeupPoint>
+  <fadedownPoint>-1</fadedownPoint>
+  <segueStartPoint>-1</segueStartPoint>
+  <segueEndPoint>-1</segueEndPoint>
+  <segueGain>-3000</segueGain>
+  <hookStartPoint>-1</hookStartPoint>
+  <hookEndPoint>-1</hookEndPoint>
+  <talkStartPoint>-1</talkStartPoint>
+  <talkEndPoint>0</talkEndPoint>
+</cut>
+</cutList>
+</cart>
+</cartList>

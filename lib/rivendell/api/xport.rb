@@ -56,9 +56,14 @@ module Rivendell::API
       Rivendell::API::Cart.new(response["cartAdd"]["cart"])
     end
 
+    # FIXME accents in carts create invalid UTF-8 response
     def list_carts(options = {})
-      # accents in carts create invalid UTF-8 response
-      post COMMAND_LISTCARTS, options
+      options[:group_name] ||= options.delete(:group)
+      
+      response = post COMMAND_LISTCARTS, options
+      response["cartList"]["cart"].collect do |cart_xml|
+        Rivendell::API::Cart.new(cart_xml)
+      end
     end
 
     def remove_cart(cart_number)

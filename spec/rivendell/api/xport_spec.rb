@@ -94,4 +94,26 @@ describe Rivendell::API::Xport do
 
   end
 
+  describe "list_carts" do
+    
+    before(:each) do
+      FakeWeb.register_uri(:post, "http://localhost/rd-bin/rdxport.cgi", :body => fixture_content("rdxport_list_carts.xml"))
+    end
+
+    it "should use COMMAND 6" do
+      subject.list_carts
+      FakeWeb.last_request["COMMAND"] == "6"
+    end
+
+    it "should return Casts" do
+      subject.list_carts.map(&:title).should include("Rivendell 1", "Rivendell 2", "Rivendell 3")
+    end
+
+    it "should use group as group_name" do
+      subject.list_carts :group => "TEST"
+      FakeWeb.last_request["GROUP_NAME"] == "TEST"
+    end
+
+  end
+
 end

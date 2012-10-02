@@ -13,6 +13,14 @@ module Rivendell::API
       @number = (number ? number.to_i : nil)
     end
 
+    def cut_list=(cuts)
+      
+    end
+
+    def macro_list=(cuts)
+      
+    end
+
     def method_missing(name, arguments)
       underscored_name = name.to_s.underscore
       if respond_to?(underscored_name)
