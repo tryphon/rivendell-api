@@ -13,6 +13,9 @@ module Rivendell::API
       @number = (number ? number.to_i : nil)
     end
 
+    alias_method :group, :group_name
+    alias_method :group=, :group_name=
+
     def cut_list=(cuts)
       
     end
