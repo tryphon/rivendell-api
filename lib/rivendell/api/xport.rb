@@ -2,7 +2,7 @@ module Rivendell::API
   class Xport
     include HTTMultiParty
     base_uri 'http://localhost/rd-bin/rdxport.cgi'
-    debug_output $stderr
+    # debug_output $stderr
     format :xml
 
     COMMAND_EXPORT = 1
