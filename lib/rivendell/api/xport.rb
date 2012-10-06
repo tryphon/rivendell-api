@@ -2,9 +2,12 @@ module Rivendell::API
   class Xport
     # Use to customize HTTParty class attributes
     def self.new(options = {})
-      Class.new(Abstract) { |klass|
-         klass.base_uri calcule_base_uri(options)
-       }.new(options)
+      Class.new(Abstract) do |klass|
+        # Under ruby 1.8, loading order can be wrong
+        klass.class_eval { include HTTMultiParty }
+
+        klass.base_uri calcule_base_uri(options)
+      end.new(options)
     end
 
     module ClassMethods
