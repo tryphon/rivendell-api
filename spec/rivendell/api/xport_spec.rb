@@ -14,6 +14,91 @@ describe Rivendell::API::Xport do
     File.read fixture_file(file)
   end
 
+  describe "initialization" do
+    
+    it "should use specified attributes" do
+      Rivendell::API::Xport.new(:login_name => "dummy").login_name.should == "dummy"
+    end
+
+    
+
+  end
+
+  describe "#login_name" do
+
+    before do
+      FakeWeb.register_uri(:post, "http://localhost/rd-bin/rdxport.cgi", :body => fixture_content("rdxport_list_groups.xml"))
+
+      def subject.make_request
+        list_groups
+      end
+    end
+
+    it "should be 'user' by default" do
+      subject.login_name.should == 'user'
+    end
+
+    it "should be used in queries" do
+      subject.login_name = "dummy"
+      subject.make_request
+      FakeWeb.last_request.form_data["LOGIN_NAME"].should == "dummy"
+    end
+
+  end
+
+  describe "#password" do
+
+    before do
+      FakeWeb.register_uri(:post, "http://localhost/rd-bin/rdxport.cgi", :body => fixture_content("rdxport_list_groups.xml"))
+
+      def subject.make_request
+        list_groups
+      end
+    end
+    
+    it "should be '' by default" do
+      subject.password.should == ''
+    end
+
+    it "should be used in queries" do
+      subject.password = "dummy"
+      subject.make_request
+      FakeWeb.last_request.form_data["PASSWORD"].should == "dummy"
+    end
+
+  end
+
+  describe "host" do
+
+    let(:host) { "example.com" }
+
+    subject { Rivendell::API::Xport.new :host => host }
+
+    before do
+      FakeWeb.register_uri(:post, "http://#{host}/rd-bin/rdxport.cgi", :body => fixture_content("rdxport_list_groups.xml"))
+      def subject.make_request
+        list_groups
+      end
+    end
+    
+    it "should used host specified in constructor" do
+      subject.make_request
+    end
+
+  end
+
+  describe ".calcule_base_uri" do
+
+    it "should use localhost by default" do
+      Rivendell::API::Xport.calcule_base_uri.should == "http://localhost/rd-bin/rdxport.cgi"
+    end
+    
+    it "should use a given host" do
+      Rivendell::API::Xport.calcule_base_uri(:host => "dummy").should == "http://dummy/rd-bin/rdxport.cgi"
+    end
+
+  end
+
   describe "#list_groups" do
 
     before(:each) do
