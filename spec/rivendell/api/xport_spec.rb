@@ -50,7 +50,7 @@ describe Rivendell::API::Xport do
 
   end
 
-  describe "add_cart" do
+  describe "#add_cart" do
     
     before(:each) do
       FakeWeb.register_uri(:post, "http://localhost/rd-bin/rdxport.cgi", :body => fixture_content("rdxport_add_cart.xml"))
@@ -77,7 +77,7 @@ describe Rivendell::API::Xport do
 
   end
 
-  describe "add_cut" do
+  describe "#add_cut" do
     
     before(:each) do
       FakeWeb.register_uri(:post, "http://localhost/rd-bin/rdxport.cgi", :body => fixture_content("rdxport_add_cut.xml"))
@@ -94,7 +94,7 @@ describe Rivendell::API::Xport do
 
   end
 
-  describe "list_carts" do
+  describe "#list_carts" do
     
     before(:each) do
       FakeWeb.register_uri(:post, "http://localhost/rd-bin/rdxport.cgi", :body => fixture_content("rdxport_list_carts.xml"))
@@ -116,7 +116,7 @@ describe Rivendell::API::Xport do
 
   end
 
-  describe "list_cuts" do
+  describe "#list_cuts" do
     
     before(:each) do
       FakeWeb.register_uri(:post, "http://localhost/rd-bin/rdxport.cgi", :body => fixture_content("rdxport_list_cuts.xml"))
@@ -157,7 +157,7 @@ describe Rivendell::API::Xport do
 
   end
 
-  describe "remove_cut" do
+  describe "#remove_cut" do
     
     before(:each) do
       FakeWeb.register_uri(:post, "http://localhost/rd-bin/rdxport.cgi", :body => xml_response)
