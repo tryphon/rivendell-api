@@ -87,16 +87,13 @@ describe Rivendell::API::Xport do
 
   end
 
-  describe ".calcule_base_uri" do
+  describe ".rdxport_uri" do
 
-    it "should use localhost by default" do
-      Rivendell::API::Xport.calcule_base_uri.should == "http://localhost/rd-bin/rdxport.cgi"
+    it "should use host" do
+      subject.host = "dummy"
+      subject.rdxport_uri.should == "http://dummy/rd-bin/rdxport.cgi"
     end
     
-    it "should use a given host" do
-      Rivendell::API::Xport.calcule_base_uri(:host => "dummy").should == "http://dummy/rd-bin/rdxport.cgi"
-    end
-
   end
 
   describe "#list_groups" do

@@ -2,6 +2,7 @@ require "rivendell/api/version"
 
 require "null_logger"
 require "active_support/core_ext/module/attribute_accessors"
+require "active_support/core_ext/class/attribute_accessors"
 
 module Rivendell
   module API
