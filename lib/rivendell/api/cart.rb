@@ -12,10 +12,10 @@ module Rivendell::API
     def number=(number)
       @number = (number ? number.to_i : nil)
     end
-
+    
     alias_method :group, :group_name
     alias_method :group=, :group_name=
-
+      
     def cut_list=(cuts)
       
     end
@@ -24,10 +24,10 @@ module Rivendell::API
       
     end
 
-    def method_missing(name, arguments)
+    def method_missing(name, *arguments)
       underscored_name = name.to_s.underscore
       if respond_to?(underscored_name)
-        send underscored_name, arguments
+        send underscored_name, *arguments
       else
         super
       end

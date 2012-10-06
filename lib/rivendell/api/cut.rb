@@ -16,10 +16,10 @@ module Rivendell::API
     alias_method :cut_name=, :name=
     alias_method :cut_number=, :number=
 
-    def method_missing(name, arguments)
+    def method_missing(name, *arguments)
       underscored_name = name.to_s.underscore
       if respond_to?(underscored_name)
-        send underscored_name, arguments
+        send underscored_name, *arguments
       else
         super
       end

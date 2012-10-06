@@ -2,7 +2,7 @@ module Rivendell::API
   class Xport
     include HTTMultiParty
     base_uri 'http://localhost/rd-bin/rdxport.cgi'
-    # debug_output $stderr
+    debug_output $stderr
     format :xml
 
     COMMAND_EXPORT = 1
@@ -68,6 +68,31 @@ module Rivendell::API
 
     def remove_cart(cart_number)
       post COMMAND_REMOVECART, :cart_number => cart_number
+    end
+
+    def list_cuts(cart_number)
+      response = post COMMAND_LISTCUTS, :cart_number => cart_number
+      case cuts_xml = response["cutList"]["cut"]
+      when Array
+        cuts_xml.collect do |cut_xml|
+          Rivendell::API::Cut.new(cut_xml)
+        end
+      when nil
+        []
+      else
+        [ Rivendell::API::Cut.new(cuts_xml) ]
+      end
+    end
+
+    def remove_cut(cart_number, cut_number)
+      post COMMAND_REMOVECUT, :cart_number => cart_number, :cut_number => cut_number
+    end
+
+    # Extension
+    def clear_cuts(cart_number)
+      list_cuts(cart_number).map(&:number).each do |cut_number|
+        remove_cut cart_number, cut_number
+      end
     end
 
     def import(cart_number, cut_number, file, options = {})

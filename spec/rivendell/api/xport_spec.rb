@@ -116,4 +116,71 @@ describe Rivendell::API::Xport do
 
   end
 
+  describe "list_cuts" do
+    
+    before(:each) do
+      FakeWeb.register_uri(:post, "http://localhost/rd-bin/rdxport.cgi", :body => fixture_content("rdxport_list_cuts.xml"))
+    end
+
+    it "should use COMMAND 9" do
+      subject.list_cuts(123)
+      FakeWeb.last_request["COMMAND"] == "9"
+    end
+
+    it "should return Cuts" do
+      subject.list_cuts(123).map(&:description).should include("Rivendell 1", "Rivendell 2", "Rivendell 3")
+    end
+
+  end
+
+  describe "#clear_cuts" do
+
+    let(:number) { 123 }
+
+    def cut(cut_number)
+      Rivendell::API::Cut.new :number => cut_number
+    end
+
+    let(:cuts) { [ cut(1), cut(2) ]}
+    
+    it "should load specified Cart" do
+      subject.should_receive(:list_cuts).with(number).and_return(cuts)
+      subject.clear_cuts number
+    end
+
+    it "should remove Cart's Cuts" do
+      subject.stub :list_cuts => cuts
+      subject.should_receive(:remove_cut).with(number, 1)
+      subject.should_receive(:remove_cut).with(number, 2)
+      subject.clear_cuts number
+    end
+
+  end
+
+  describe "remove_cut" do
+    
+    before(:each) do
+      FakeWeb.register_uri(:post, "http://localhost/rd-bin/rdxport.cgi", :body => xml_response)
+    end
+
+    let(:cart_number) { 123 }
+    let(:cut_number) { 1 }
+
+    it "should use COMMAND 11" do
+      subject.remove_cut cart_number, cut_number
+      FakeWeb.last_request["COMMAND"] == "11"
+    end
+
+    it "should specify cart_number" do
+      subject.remove_cut 123, cut_number
+      FakeWeb.last_request["CART_NUMBER"] == "123"
+    end
+
+    it "should specify cut_number" do
+      subject.remove_cut cart_number, 1
+      FakeWeb.last_request["CUT_NUMBER"] == 1
+    end
+
+  end
+
 end

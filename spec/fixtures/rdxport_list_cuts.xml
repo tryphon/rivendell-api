@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<cutList>
+<cut>
+  <cutName>045004_001</cutName>
+  <cartNumber>45004</cartNumber>
+  <cutNumber>1</cutNumber>
+  <evergreen>false</evergreen>
+  <description>Rivendell 1</description>
+  <outcue></outcue>
+  <isrc></isrc>
+  <isci></isci>
+  <length>7862</length>
+  <originDatetime>Wed, 22 Apr 2009 21:23:22 GMT</originDatetime>
+  <startDatetime></startDatetime>
+  <endDatetime></endDatetime>
+  <sun>true</sun>
+  <mon>true</mon>
+  <tue>true</tue>
+  <wed>true</wed>
+  <thu>true</thu>
+  <fri>true</fri>
+  <sat>true</sat>
+  <startDaypart></startDaypart>
+  <endDaypart></endDaypart>
+  <originName>hyppo</originName>
+  <weight>1</weight>
+  <lastPlayDatetime>Thu, 13 Sep 2012 07:05:35 GMT</lastPlayDatetime>
+  <playCounter>34</playCounter>
+  <localCounter>22</localCounter>
+  <validity>2</validity>
+  <codingFormat>0</codingFormat>
+  <sampleRate>44100</sampleRate>
+  <bitRate>0</bitRate>
+  <channels>2</channels>
+  <playGain>0</playGain>
+  <startPoint>52</startPoint>
+  <endPoint>7914</endPoint>
+  <fadeupPoint>-1</fadeupPoint>
+  <fadedownPoint>-1</fadedownPoint>
+  <segueStartPoint>6008</segueStartPoint>
+  <segueEndPoint>7888</segueEndPoint>
+  <segueGain>-3000</segueGain>
+  <hookStartPoint>-1</hookStartPoint>
+  <hookEndPoint>-1</hookEndPoint>
+  <talkStartPoint>-1</talkStartPoint>
+  <talkEndPoint>0</talkEndPoint>
+</cut>
+<cut>
+  <cutName>045004_002</cutName>
+  <cartNumber>45004</cartNumber>
+  <cutNumber>2</cutNumber>
+  <evergreen>false</evergreen>
+  <description>Rivendell 2</description>
+  <outcue></outcue>
+  <isrc></isrc>
+  <isci></isci>
+  <length>9064</length>
+  <originDatetime>Wed, 22 Apr 2009 21:25:00 GMT</originDatetime>
+  <startDatetime></startDatetime>
+  <endDatetime></endDatetime>
+  <sun>true</sun>
+  <mon>true</mon>
+  <tue>true</tue>
+  <wed>true</wed>
+  <thu>true</thu>
+  <fri>true</fri>
+  <sat>true</sat>
+  <startDaypart></startDaypart>
+  <endDaypart></endDaypart>
+  <originName>hyppo</originName>
+  <weight>1</weight>
+  <lastPlayDatetime>Thu, 13 Sep 2012 07:05:48 GMT</lastPlayDatetime>
+  <playCounter>34</playCounter>
+  <localCounter>22</localCounter>
+  <validity>2</validity>
+  <codingFormat>0</codingFormat>
+  <sampleRate>44100</sampleRate>
+  <bitRate>0</bitRate>
+  <channels>2</channels>
+  <playGain>0</playGain>
+  <startPoint>78</startPoint>
+  <endPoint>9142</endPoint>
+  <fadeupPoint>-1</fadeupPoint>
+  <fadedownPoint>-1</fadedownPoint>
+  <segueStartPoint>8280</segueStartPoint>
+  <segueEndPoint>9116</segueEndPoint>
+  <segueGain>-3000</segueGain>
+  <hookStartPoint>-1</hookStartPoint>
+  <hookEndPoint>-1</hookEndPoint>
+  <talkStartPoint>-1</talkStartPoint>
+  <talkEndPoint>0</talkEndPoint>
+</cut>
+<cut>
+  <cutName>045004_003</cutName>
+  <cartNumber>45004</cartNumber>
+  <cutNumber>3</cutNumber>
+  <evergreen>false</evergreen>
+  <description>Rivendell 3</description>
+  <outcue></outcue>
+  <isrc></isrc>
+  <isci></isci>
+  <length>8307</length>
+  <originDatetime>Wed, 22 Apr 2009 21:25:38 GMT</originDatetime>
+  <startDatetime></startDatetime>
+  <endDatetime></endDatetime>
+  <sun>true</sun>
+  <mon>true</mon>
+  <tue>true</tue>
+  <wed>true</wed>
+  <thu>true</thu>
+  <fri>true</fri>
+  <sat>true</sat>
+  <startDaypart></startDaypart>
+  <endDaypart></endDaypart>
+  <originName>hyppo</originName>
+  <weight>1</weight>
+  <lastPlayDatetime>Thu, 13 Sep 2012 07:05:22 GMT</lastPlayDatetime>
+  <playCounter>33</playCounter>
+  <localCounter>21</localCounter>
+  <validity>2</validity>
+  <codingFormat>0</codingFormat>
+  <sampleRate>44100</sampleRate>
+  <bitRate>0</bitRate>
+  <channels>2</channels>
+  <playGain>0</playGain>
+  <startPoint>130</startPoint>
+  <endPoint>8437</endPoint>
+  <fadeupPoint>-1</fadeupPoint>
+  <fadedownPoint>-1</fadedownPoint>
+  <segueStartPoint>-1</segueStartPoint>
+  <segueEndPoint>-1</segueEndPoint>
+  <segueGain>-3000</segueGain>
+  <hookStartPoint>-1</hookStartPoint>
+  <hookEndPoint>-1</hookEndPoint>
+  <talkStartPoint>-1</talkStartPoint>
+  <talkEndPoint>0</talkEndPoint>
+</cut>
+</cutList>
