@@ -20,8 +20,6 @@ describe Rivendell::API::Xport do
       Rivendell::API::Xport.new(:login_name => "dummy").login_name.should == "dummy"
     end
 
-    
-
   end
 
   describe "#login_name" do
@@ -155,6 +153,11 @@ describe Rivendell::API::Xport do
 
     it "should return Cast number" do
       subject.add_cart(:group => "TEST").number.should == 1005
+    end
+
+    it "should raise an error when http response is an error" do
+      FakeWeb.register_uri(:post, "http://localhost/rd-bin/rdxport.cgi", :body => xml_response(403, "Error"), :status => ["403", "Error"])
+      lambda { subject.add_cart(:group => "TEST") }.should raise_error(Net::HTTPServerException)
     end
 
   end

@@ -63,7 +63,10 @@ module Rivendell::API
 
     def post(command, attributes = {}, options = {})
       logger.debug "Post #{command} #{attributes.inspect}"
-      self.class.post rdxport_uri, :query => query(command, attributes)
+      
+      response = self.class.post(rdxport_uri, :query => query(command, attributes))
+      response.error! unless response.success?
+      response
     end
 
     def list_groups
