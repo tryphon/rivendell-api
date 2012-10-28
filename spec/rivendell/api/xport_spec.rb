@@ -113,6 +113,11 @@ describe Rivendell::API::Xport do
       FakeWeb.register_uri(:post, "http://localhost/rd-bin/rdxport.cgi", :body => xml_response)
     end
 
+    it "should use a timeout of 10 minutes" do
+      subject.should_receive(:post).with(anything, anything, hash_including(:timeout => 600))
+      subject.import 123, 001, fixture_file("empty.wav")
+    end
+
     it "should use COMMAND 2" do
       subject.import 123, 001, fixture_file("empty.wav")
       FakeWeb.last_request["COMMAND"] == "2"
@@ -153,11 +158,6 @@ describe Rivendell::API::Xport do
 
     it "should return Cast number" do
       subject.add_cart(:group => "TEST").number.should == 1005
-    end
-
-    it "should raise an error when http response is an error" do
-      FakeWeb.register_uri(:post, "http://localhost/rd-bin/rdxport.cgi", :body => xml_response(403, "Error"), :status => ["403", "Error"])
-      lambda { subject.add_cart(:group => "TEST") }.should raise_error(Net::HTTPServerException)
     end
 
   end
@@ -265,6 +265,21 @@ describe Rivendell::API::Xport do
       subject.remove_cut cart_number, 1
       FakeWeb.last_request["CUT_NUMBER"] == 1
     end
+
+  end
+
+  describe "#post" do
+
+    it "should use options in post request" do
+      subject.class.should_receive(:post).with(anything, hash_including(:option => "value")).and_return(mock(:success? => true))
+      subject.post "dummy", {}, :option => "value"
+    end
+    
+    it "should raise an error when http response is an error" do
+      FakeWeb.register_uri(:post, "http://localhost/rd-bin/rdxport.cgi", :status => ["403", "Error"])
+      lambda { subject.post("dummy") }.should raise_error(Net::HTTPServerException)
+    end
+
 
   end
 

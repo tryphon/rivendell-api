@@ -56,15 +56,17 @@ module Rivendell::API
       }.merge(attributes)
 
       attributes.inject({}) do |map, (key, value)|
-        map[key.to_s.upcase] = value
+        map[key.to_s.upcase] = value unless value.nil?
         map
       end
     end
 
     def post(command, attributes = {}, options = {})
       logger.debug "Post #{command} #{attributes.inspect}"
+
+      options = options.merge :query => query(command, attributes)
       
-      response = self.class.post(rdxport_uri, :query => query(command, attributes))
+      response = self.class.post rdxport_uri, options
       response.error! unless response.success?
       response
     end
