@@ -39,8 +39,8 @@ module Rivendell::API
     def login_name
       @login_name ||= "user"
     end
-    
-    def password 
+
+    def password
       @password ||= ""
     end
 
@@ -49,10 +49,10 @@ module Rivendell::API
     end
 
     def query(command, attributes = {})
-      attributes = { 
-        :command => command, 
-        :login_name => login_name, 
-        :password => password 
+      attributes = {
+        :command => command,
+        :login_name => login_name,
+        :password => password
       }.merge(attributes)
 
       attributes.inject({}) do |map, (key, value)|
@@ -65,7 +65,7 @@ module Rivendell::API
       logger.debug "Post #{command} #{attributes.inspect}"
 
       options = options.merge :query => query(command, attributes)
-      
+
       response = self.class.post rdxport_uri, options
       response.error! unless response.success?
       response
@@ -83,10 +83,24 @@ module Rivendell::API
       Rivendell::API::Cart.new(response["cartAdd"]["cart"])
     end
 
+    def edit_cart(number, attributes = {})
+      attributes[:cart_number] = number
+      attributes.delete(:number)
+      attributes[:group_name] ||= attributes.delete(:group)
+
+      response = post COMMAND_EDITCART, attributes
+      Rivendell::API::Cart.new(response["cartList"]["cart"])
+    end
+
+    def list_cart(cart_number)
+      response = post COMMAND_LISTCART, :cart_number => cart_number
+      Rivendell::API::Cart.new response["cartList"]["cart"]
+    end
+
     # FIXME accents in carts create invalid UTF-8 response
     def list_carts(options = {})
       options[:group_name] ||= options.delete(:group)
-      
+
       response = post COMMAND_LISTCARTS, options
       response["cartList"]["cart"].collect do |cart_xml|
         Rivendell::API::Cart.new(cart_xml)
@@ -123,8 +137,8 @@ module Rivendell::API
     end
 
     def import(cart_number, cut_number, file, options = {})
-      arguments = { 
-        :channels => 2, 
+      arguments = {
+        :channels => 2,
         :normalization_level => -13,
         :autotrim_level => -30,
         :use_metadata => true,

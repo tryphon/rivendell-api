@@ -15,7 +15,7 @@ describe Rivendell::API::Xport do
   end
 
   describe "initialization" do
-    
+
     it "should use specified attributes" do
       Rivendell::API::Xport.new(:login_name => "dummy").login_name.should == "dummy"
     end
@@ -53,7 +53,7 @@ describe Rivendell::API::Xport do
         list_groups
       end
     end
-    
+
     it "should be '' by default" do
       subject.password.should == ''
     end
@@ -78,7 +78,7 @@ describe Rivendell::API::Xport do
         list_groups
       end
     end
-    
+
     it "should used host specified in constructor" do
       subject.make_request
     end
@@ -91,7 +91,7 @@ describe Rivendell::API::Xport do
       subject.host = "dummy"
       subject.rdxport_uri.should == "http://dummy/rd-bin/rdxport.cgi"
     end
-    
+
   end
 
   describe "#list_groups" do
@@ -136,13 +136,13 @@ describe Rivendell::API::Xport do
   end
 
   describe "#add_cart" do
-    
+
     before(:each) do
       FakeWeb.register_uri(:post, "http://localhost/rd-bin/rdxport.cgi", :body => fixture_content("rdxport_add_cart.xml"))
     end
 
     it "should use COMMAND 12" do
-      subject.add_cart 
+      subject.add_cart
       FakeWeb.last_request["COMMAND"] == "12"
     end
 
@@ -162,8 +162,31 @@ describe Rivendell::API::Xport do
 
   end
 
+  describe "#edit_cart" do
+
+    before(:each) do
+      FakeWeb.register_uri(:post, "http://localhost/rd-bin/rdxport.cgi", :body => fixture_content("rdxport_edit_cart.xml"))
+    end
+
+    it "should use COMMAND 14" do
+      subject.edit_cart 123
+      FakeWeb.last_request["COMMAND"] == "14"
+    end
+
+    it "should use specified number" do
+      subject.edit_cart 123
+      FakeWeb.last_request["CART_NUMBER"] == 123
+    end
+
+    it "should use group as group_name" do
+      subject.edit_cart 123, :group => "TEST"
+      FakeWeb.last_request["GROUP_NAME"] == "TEST"
+    end
+
+  end
+
   describe "#add_cut" do
-    
+
     before(:each) do
       FakeWeb.register_uri(:post, "http://localhost/rd-bin/rdxport.cgi", :body => fixture_content("rdxport_add_cut.xml"))
     end
@@ -180,7 +203,7 @@ describe Rivendell::API::Xport do
   end
 
   describe "#list_carts" do
-    
+
     before(:each) do
       FakeWeb.register_uri(:post, "http://localhost/rd-bin/rdxport.cgi", :body => fixture_content("rdxport_list_carts.xml"))
     end
@@ -202,7 +225,7 @@ describe Rivendell::API::Xport do
   end
 
   describe "#list_cuts" do
-    
+
     before(:each) do
       FakeWeb.register_uri(:post, "http://localhost/rd-bin/rdxport.cgi", :body => fixture_content("rdxport_list_cuts.xml"))
     end
@@ -227,7 +250,7 @@ describe Rivendell::API::Xport do
     end
 
     let(:cuts) { [ cut(1), cut(2) ]}
-    
+
     it "should load specified Cart" do
       subject.should_receive(:list_cuts).with(number).and_return(cuts)
       subject.clear_cuts number
@@ -243,7 +266,7 @@ describe Rivendell::API::Xport do
   end
 
   describe "#remove_cut" do
-    
+
     before(:each) do
       FakeWeb.register_uri(:post, "http://localhost/rd-bin/rdxport.cgi", :body => xml_response)
     end
@@ -274,7 +297,7 @@ describe Rivendell::API::Xport do
       subject.class.should_receive(:post).with(anything, hash_including(:option => "value")).and_return(mock(:success? => true))
       subject.post "dummy", {}, :option => "value"
     end
-    
+
     it "should raise an error when http response is an error" do
       FakeWeb.register_uri(:post, "http://localhost/rd-bin/rdxport.cgi", :status => ["403", "Error"])
       lambda { subject.post("dummy") }.should raise_error(Net::HTTPServerException)
