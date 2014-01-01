@@ -13,10 +13,6 @@ module Rivendell::API
       @number = (number ? number.to_i : nil)
     end
 
-    def has_title?
-      not [ nil, "", "[new cart]" ].include? title
-    end
-
     alias_method :group, :group_name
     alias_method :group=, :group_name=
 
