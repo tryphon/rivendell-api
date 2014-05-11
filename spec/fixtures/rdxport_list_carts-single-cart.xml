@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<cartList>
+<cart>
+  <number>10037</number>
+  <type>audio</type>
+  <groupName>MUSIC</groupName>
+  <title>Rivendell 1</title>
+  <artist>Trust</artist>
+  <album>AntiBest of</album>
+  <year></year>
+  <label></label>
+  <client></client>
+  <agency></agency>
+  <publisher></publisher>
+  <composer></composer>
+  <userDefined></userDefined>
+  <usageCode>0</usageCode>
+  <forcedLength>0:05:05.8</forcedLength>
+  <averageLength>0:05:05.8</averageLength>
+  <lengthDeviation>0:00:00.0</lengthDeviation>
+  <averageSegueLenth>0:05:05.8</averageSegueLenth>
+  <averageHookLength>0:00:00.0</averageHookLength>
+  <cutQuantity>1</cutQuantity>
+  <lastCutPlayed>0</lastCutPlayed>
+  <validity>2</validity>
+  <enforceLength>false</enforceLength>
+  <asyncronous>false</asyncronous>
+  <owner></owner>
+  <metadataDatetime>Mon, 29 Aug 2011 15:15:56 GMT</metadataDatetime>
+<cutList>
+<cut>
+  <cutName>010037_001</cutName>
+  <cartNumber>10037</cartNumber>
+  <cutNumber>1</cutNumber>
+  <evergreen>false</evergreen>
+  <description>Antisocial</description>
+  <outcue></outcue>
+  <isrc></isrc>
+  <isci></isci>
+  <length>305842</length>
+  <originDatetime>Sat, 14 May 2011 09:51:00 GMT</originDatetime>
+  <startDatetime></startDatetime>
+  <endDatetime></endDatetime>
+  <sun>true</sun>
+  <mon>true</mon>
+  <tue>true</tue>
+  <wed>true</wed>
+  <thu>true</thu>
+  <fri>true</fri>
+  <sat>true</sat>
+  <startDaypart></startDaypart>
+  <endDaypart></endDaypart>
+  <originName>hyppo</originName>
+  <weight>1</weight>
+  <lastPlayDatetime>Mon, 29 Aug 2011 19:45:08 GMT</lastPlayDatetime>
+  <playCounter>1</playCounter>
+  <localCounter>1</localCounter>
+  <validity>2</validity>
+  <codingFormat>0</codingFormat>
+  <sampleRate>44100</sampleRate>
+  <bitRate>0</bitRate>
+  <channels>2</channels>
+  <playGain>0</playGain>
+  <startPoint>117</startPoint>
+  <endPoint>305959</endPoint>
+  <fadeupPoint>-1</fadeupPoint>
+  <fadedownPoint>-1</fadedownPoint>
+  <segueStartPoint>-1</segueStartPoint>
+  <segueEndPoint>-1</segueEndPoint>
+  <segueGain>-3000</segueGain>
+  <hookStartPoint>-1</hookStartPoint>
+  <hookEndPoint>-1</hookEndPoint>
+  <talkStartPoint>-1</talkStartPoint>
+  <talkEndPoint>0</talkEndPoint>
+</cut>
+</cutList>
+</cart>
+</cartList>

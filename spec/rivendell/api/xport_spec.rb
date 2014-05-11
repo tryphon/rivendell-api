@@ -222,6 +222,18 @@ describe Rivendell::API::Xport do
       FakeWeb.last_request["GROUP_NAME"] == "TEST"
     end
 
+    context "when a single cart is found" do
+
+      before(:each) do
+        FakeWeb.register_uri(:post, "http://localhost/rd-bin/rdxport.cgi", :body => fixture_content("rdxport_list_carts-single-cart.xml"))
+      end
+
+      it "should return Cast" do
+        subject.list_carts.map(&:title).should == ["Rivendell 1"]
+      end
+
+    end
+
   end
 
   describe "#list_cuts" do

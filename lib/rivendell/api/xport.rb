@@ -102,8 +102,19 @@ module Rivendell::API
       options[:group_name] ||= options.delete(:group)
 
       response = post COMMAND_LISTCARTS, options
-      response["cartList"]["cart"].collect do |cart_xml|
+      elements(response["cartList"]["cart"]).collect do |cart_xml|
         Rivendell::API::Cart.new(cart_xml)
+      end
+    end
+
+    def elements(response)
+      case response
+      when Array
+        response
+      when nil
+        []
+      else
+        [ response ]
       end
     end
 
@@ -113,15 +124,8 @@ module Rivendell::API
 
     def list_cuts(cart_number)
       response = post COMMAND_LISTCUTS, :cart_number => cart_number
-      case cuts_xml = response["cutList"]["cut"]
-      when Array
-        cuts_xml.collect do |cut_xml|
-          Rivendell::API::Cut.new(cut_xml)
-        end
-      when nil
-        []
-      else
-        [ Rivendell::API::Cut.new(cuts_xml) ]
+      elements(response["cutList"]["cut"]).collect do |cut_xml|
+        Rivendell::API::Cut.new cut_xml
       end
     end
 
