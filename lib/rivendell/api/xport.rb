@@ -141,6 +141,8 @@ module Rivendell::API
     end
 
     def import(cart_number, cut_number, file, options = {})
+      timeout = (options.delete(:timeout) || 10)*60
+
       arguments = {
         :channels => 2,
         :normalization_level => -13,
@@ -152,7 +154,7 @@ module Rivendell::API
 
       arguments[:use_metadata] = 1 if arguments[:use_metadata]
 
-      post COMMAND_IMPORT, arguments, :timeout => 10*60
+      post COMMAND_IMPORT, arguments, :timeout => timeout
     end
 
     def add_cut(cart_number)

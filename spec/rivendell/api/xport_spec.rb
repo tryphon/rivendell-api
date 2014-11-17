@@ -113,9 +113,14 @@ describe Rivendell::API::Xport do
       FakeWeb.register_uri(:post, "http://localhost/rd-bin/rdxport.cgi", :body => xml_response)
     end
 
-    it "should use a timeout of 10 minutes" do
+    it "should use a default timeout of 10 minutes" do
       subject.should_receive(:post).with(anything, anything, hash_including(:timeout => 600))
       subject.import 123, 001, fixture_file("empty.wav")
+    end
+
+    it "should use a given timeout" do
+      subject.should_receive(:post).with(anything, anything, hash_including(:timeout => 1200))
+      subject.import 123, 001, fixture_file("empty.wav"), timeout: 20
     end
 
     it "should use COMMAND 2" do
