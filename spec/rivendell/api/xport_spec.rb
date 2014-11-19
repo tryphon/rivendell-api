@@ -207,6 +207,51 @@ describe Rivendell::API::Xport do
 
   end
 
+  describe "#list_cut" do
+
+    before(:each) do
+      FakeWeb.register_uri(:post, "http://localhost/rd-bin/rdxport.cgi", :body => fixture_content("rdxport_list_cut.xml"))
+    end
+
+    it "should use COMMAND 10" do
+      subject.list_cut(70000,1)
+      FakeWeb.last_request["COMMAND"] == "8"
+    end
+
+    it "should return Cut" do
+      subject.list_cut(70000,1).cart_number.should == "70000"
+    end
+
+  end
+
+  describe "#edit_cut" do
+
+    before(:each) do
+      FakeWeb.register_uri(:post, "http://localhost/rd-bin/rdxport.cgi", :body => fixture_content("rdxport_edit_cut.xml"))
+    end
+
+    it "should use COMMAND 15" do
+      subject.edit_cut 70000, 1
+      FakeWeb.last_request["COMMAND"] == "15"
+    end
+
+    it "should use specified cart number" do
+      subject.edit_cut 70000, 1
+      FakeWeb.last_request["CART_NUMBER"] == 70000
+    end
+
+    it "should use specified cut number" do
+      subject.edit_cut 70000, 1
+      FakeWeb.last_request["CUT_NUMBER"] == 1
+    end
+
+    it "should use given attributes" do
+      subject.edit_cut 70000, 1, :description => "Test"
+      FakeWeb.last_request["DESCRIPTION"] == "Test"
+    end
+
+  end
+
   describe "#list_carts" do
 
     before(:each) do

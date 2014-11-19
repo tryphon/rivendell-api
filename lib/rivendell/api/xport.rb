@@ -2,7 +2,7 @@ module Rivendell::API
   class Xport
     include HTTMultiParty
 
-    # debug_output $stderr
+    debug_output $stderr
     format :xml
 
     COMMAND_EXPORT = 1
@@ -160,6 +160,23 @@ module Rivendell::API
     def add_cut(cart_number)
       response = post COMMAND_ADDCUT, :cart_number => cart_number
       Rivendell::API::Cut.new(response["cutAdd"]["cut"])
+    end
+
+    def edit_cut(cart_number, cut_number, attributes = {})
+      attributes[:cart_number] = cart_number
+      attributes[:cut_number] = cut_number
+
+      post COMMAND_EDITCUT, attributes
+    end
+
+    def list_cut(cart_number, cut_number)
+      arguments = {
+        :cart_number => cart_number,
+        :cut_number => cut_number
+      }
+
+      response = post COMMAND_LISTCUT, arguments
+      Rivendell::API::Cut.new(response["cutList"]["cut"])
     end
 
   end

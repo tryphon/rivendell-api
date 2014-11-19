@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cutList>
+<cut>
+  <cutName>070000_001</cutName>
+  <cartNumber>70000</cartNumber>
+  <cutNumber>1</cutNumber>
+  <evergreen>false</evergreen>
+  <description>test</description>
+  <outcue></outcue>
+  <isrc></isrc>
+  <isci></isci>
+  <length>0</length>
+  <originDatetime></originDatetime>
+  <startDatetime></startDatetime>
+  <endDatetime></endDatetime>
+  <sun>true</sun>
+  <mon>true</mon>
+  <tue>true</tue>
+  <wed>true</wed>
+  <thu>true</thu>
+  <fri>true</fri>
+  <sat>true</sat>
+  <startDaypart></startDaypart>
+  <endDaypart></endDaypart>
+  <originName></originName>
+  <weight>1</weight>
+  <lastPlayDatetime/>
+  <playCounter>0</playCounter>
+  <localCounter>0</localCounter>
+  <validity>0</validity>
+  <codingFormat>0</codingFormat>
+  <sampleRate>0</sampleRate>
+  <bitRate>0</bitRate>
+  <channels>2</channels>
+  <playGain>0</playGain>
+  <startPoint>-1</startPoint>
+  <endPoint>-1</endPoint>
+  <fadeupPoint>-1</fadeupPoint>
+  <fadedownPoint>-1</fadedownPoint>
+  <segueStartPoint>-1</segueStartPoint>
+  <segueEndPoint>-1</segueEndPoint>
+  <segueGain>-3000</segueGain>
+  <hookStartPoint>-1</hookStartPoint>
+  <hookEndPoint>-1</hookEndPoint>
+  <talkStartPoint>-1</talkStartPoint>
+  <talkEndPoint>0</talkEndPoint>
+</cut>
+</cutList>
