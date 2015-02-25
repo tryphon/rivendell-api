@@ -1,3 +1,4 @@
+# coding: utf-8
 require 'spec_helper'
 
 describe Rivendell::API::Xport do
@@ -62,6 +63,28 @@ describe Rivendell::API::Xport do
       subject.password = "dummy"
       subject.make_request
       FakeWeb.last_request.form_data["PASSWORD"].should == "dummy"
+    end
+
+  end
+
+  describe "#encoding" do
+
+    it "should be 'cp1252' by default" do
+      subject.encoding.should == 'cp1252'
+    end
+
+  end
+
+  describe "#encode" do
+
+    it "should change string encoding if needed" do
+      utf8_attributes = { dummy: "aéèùç".encode("UTF-8") }
+      subject.encode(utf8_attributes).should == { dummy: "aéèùç".encode(subject.encoding) }
+    end
+
+    it "should left intact attributes without encoding" do
+      attributes = { dummy: 1 }
+      subject.encode(attributes).should == { dummy: 1 }
     end
 
   end

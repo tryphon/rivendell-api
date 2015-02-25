@@ -30,7 +30,7 @@ module Rivendell::API
       options.each { |k,v| send "#{k}=", v }
     end
 
-    attr_accessor :login_name, :password, :host
+    attr_accessor :login_name, :password, :host, :encoding
 
     def host
       @host ||= "localhost"
@@ -42,6 +42,17 @@ module Rivendell::API
 
     def password
       @password ||= ""
+    end
+
+    def encoding
+      @encoding ||= "cp1252"
+    end
+
+    def encode(attributes)
+      attributes.each_with_object({}) do |(k,v), encoded_atttributes|
+        v = v.encode(encoding) if v.respond_to?(:encode)
+        encoded_atttributes[k] = v
+      end
     end
 
     def rdxport_uri
@@ -88,7 +99,7 @@ module Rivendell::API
       attributes.delete(:number)
       attributes[:group_name] ||= attributes.delete(:group)
 
-      response = post COMMAND_EDITCART, attributes
+      response = post COMMAND_EDITCART, encode(attributes)
       Rivendell::API::Cart.new(response["cartList"]["cart"])
     end
 
@@ -166,7 +177,7 @@ module Rivendell::API
       attributes[:cart_number] = cart_number
       attributes[:cut_number] = cut_number
 
-      post COMMAND_EDITCUT, attributes
+      post COMMAND_EDITCUT, encode(attributes)
     end
 
     def list_cut(cart_number, cut_number)
